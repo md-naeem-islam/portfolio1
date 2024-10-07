@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    user-select: none;
+}
+main{
+    background-image: url(../image/5192479.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 800px;
+}
+
+nav{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(247, 42, 42, 0.284);
+    height: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: rgb(255, 37, 37);
+    background-color: black;
+    border-radius: 15px;
+    transition: 1s;
+}
+.sign{
+    background-color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 15%;
+}
+
+
+.logo{
+    height: 120px;
+    width: 120px;
+    
+}
+
+.title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(253, 28, 28);
+}
+
+/* body section stard */
+.container{
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .first_wlc{
+    width: 150px;
+    height: 400px;
+    background: orangered;
+  }
+  
+  h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+  }
+  
+  .container form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+  } 
+  
+  form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: black;
+    color: #0091ff;
+    text-align: center;
+  }
+  
+  ::placeholder{
+    color: #0091ff;
+  }
+  
+  .btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  form button:hover{
+    background-color: #0091ff;
+  }
+  #Form2{
+    left: 450px ;
+  }
+  #Form3{
+    left: 450px ;
+  }
+  .step-row{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+  }
+  
+  .step-col{
+    width: 120px;
+    text-align: center;
+    color: #333;
+    position: relative;
+  }
+  
+  #progerss{
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background-color: #0091ff;
+    transition: 2s;
+  }
+  
+  #progerss::after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 20px solid  transparent;
+    border-bottom: 20px solid  transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #0091ff;
+  
+  }

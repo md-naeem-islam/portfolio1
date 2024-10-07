@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(75, 70, 70);
+    background-image: url(../image/5192479.jpg) ;
+}
+.top_bar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background: rgba(255, 38, 0, 0.421);
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+}
+.logo div{
+    height: 100%;
+    width: 40%;
+    margin: 0 30%;
+}
+.logo img{
+
+    height: 80px;
+    width: 80px;
+}
+
+.title_src_menu{
+    height: 100%;
+    width: 80%;
+}
+
+.title_src_menu h1{
+    text-align: center;
+    font-size: 29px;
+}
+.title_src_menu input{
+    border: 1px solid rgb(255, 0, 0);
+    width: 45%;
+    margin-left: 20%;
+    height: 25px;
+    outline-style: none;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border-radius: 18px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    background-color: rgba(0, 0, 0, 0.326);
+}
+.title_src_menu .srce{
+width: 15% ;
+height: 25px;
+background-color: rgb(255, 0, 0);
+border: 1px solid rgb(255, 0, 0);
+border-radius: 18px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+
+
+}
+.title_src_menu ul{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    justify-content: space-between;
+}
+.title_src_menu ul a{
+text-decoration: none;
+padding: 0 12px;
+color: rgb(255, 0, 0);
+}
+.title_src_menu ul a:hover{
+background: black;
+}
+.profil{
+    height: 100%;
+    width: 20%;
+    padding: 0 ;
+    justify-content: right;
+    align-items: center;
+}
+.profil_info{
+    height: 60%;
+    width: 25%;
+    margin: 0 37.5%;
+}
+.profil .profil_info img{
+     height: 55px;
+     width: 55px;
+     border-radius: 50%;
+     border: 2px solid wheat;
+     display: inline;
+}
+
+.profil h5{
+ text-align: center;
+ margin-top: 5%;
+}
+
+/* ============nav tag end============= */
+
+/* ============body tag sterd============= */
+
+.first_contener{
+    height: 700px;
+    width: 100%;
+    background: rgb(147, 160, 188);
+
+
+}
+.first_contener .div_1f{
+
+    height: 350px ;
+    width: 100%;
+    display: flex;
+}
+.first_contener .div_1f .div_1f_c1{
+    height: 350px;
+    width: 65%;
+    color: rgb(255, 106, 0);
+    padding-left: 70px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 170px;
+}
+.first_contener .div_1f .div_1f_c2{
+    height: 350px;
+    width: 35%;
+    color: yellow;
+    font-weight: bold;
+    font-size: 150px;
+    h1{
+        margin-left: -370px;
+        margin-top: -190px;
+    }
+}
+.first_contener .div_1f .div_1f_c2 img{
+    height: 350px;
+
+}
+.div_2f{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+                      /* first_contener end  */
+
+
+
+.secend_contener{
+    height: 700px;
+    width: 100%;
+    background: rgb(141, 144, 151);
+    margin-top: 5px;
+}

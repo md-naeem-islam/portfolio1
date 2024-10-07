@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+main{
+    background-image: url(../image/5192479.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 1000px;
+}
+/*================================= nav section stard============================ */
+nav{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(247, 42, 42, 0.284);
+    height: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: rgb(255, 37, 37);
+    background-color: black;
+    border-radius: 15px;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 15%;
+}
+
+
+.logo{
+    height: 120px;
+    width: 120px;
+    
+}
+
+.title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(253, 28, 28);
+}
+
+/*================================= nav section end=============================== */
+/*================================= body section stard============================ */
+
+.body_div{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 40px;
+    align-items: center;
+    transition: 1s;
+}
+.body_div h1{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.body_div h3{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.div_1{
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 45px;
+    border-top-right-radius: 0px;
+    background: rgba(255, 0, 0, 0.714);
+}
+.body_div .Welcome_l{
+    height: 350px;
+    width: 350px;
+    
+}
+.div_1 h3{
+    padding: 0px;
+    font-size: 30px;
+}
+.chus{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin: 15px 0 ;
+    background-color: rgba(250, 215, 215, 0.245);
+}
+
+.secation-div{
+    justify-content: space-around;
+    display: flex;
+    transition: 1s;
+}
+.login{
+height: 400px;
+width: 350px;
+padding: 0 60px;
+background-color: rgba(127, 255, 212, 0.096);
+}
+.signup{
+    height: 400px;
+    padding: 0 60px;
+    width: 350px;
+    background-color: rgba(127, 255, 212, 0.095);
+}
+.geast{
+    height: 400px;
+    padding: 0 60px;
+    width: 350px;
+    background-color: rgba(127, 255, 212, 0.093);
+}
+
+
+/*================================= body section end================================ */
+/*================================= footer section stard============================ */
+.footer{
+    overflow: hidden ;
+    height: 140px;
+    padding: 30px 50px;
+    background-color: rgb(45, 39, 39);
+}
